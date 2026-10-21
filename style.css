@@ -1,0 +1,22 @@
+:root {
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+}
+
+body {
+    /* Bright and warm dynamic radial gradient */
+    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), #ffffff 0%, #fff7d6 40%, #ffe0b2 100%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Classes for animation */
+.input-shifted {
+    transform: translateY(150px) scale(0.8) !important;
+    opacity: 0.5;
+}
+
+.qr-visible {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
